@@ -21,27 +21,27 @@ I want to ...
            1. Create a wiki page for your new repository
            2. Clone this repository's wiki repository: `git clone https://github.com/FroeMic/CDTM-Backend-Course.wiki.git`
            3. Force push the wiki repository to your new repository's wiki repository: `cd CDTM-Backend-Course.wiki` and `git push --force https://github.com/YOURUSERNAME/YOURNEWREPOSITORYNAME.wiki.git` 
- 2. Prepare repository for students
+2. Prepare repository for students
     1. Checkout both the 'master' and 'solution' branch on your local machine
     2. Force delete the remote 'solution' branch (don't delete the branch in your local copy)
- 3. Let students fork your new repository. The will only see the 'master' branch
- 4. Let the students add your repository's master branch as 'upstream' 
-    * Sourcetree Instructions:
-        1. Open your forked repo in SourceTree.
-        2. Select Repository ➫ Repository Settings… in the menu (or press ⇧⌘,).
-        3. In the Remotes pane, press Add.
-        4. Enter any name you like (often upstream or master) and the URL / path to the parent repo.
-        5. Press OK, then OK.
-     * Git Console:
-        https://help.github.com/articles/configuring-a-remote-for-a-fork/
- 5. Everytime you want to publish a step to the students, merge the specific commit from you **local** 'solution' branch into 'master' and push your changes.
- 6. For the students to receive the changes, let them pull from upstream
-    * Sourcetree:
+3. Let students fork your new repository. The will only see the 'master' branch
+4. Let the students add your repository's master branch as 'upstream' 
+  * Sourcetree Instructions:
+      1. Open your forked repo in SourceTree.
+      2. Select Repository ➫ Repository Settings… in the menu (or press ⇧⌘,).
+      3. In the Remotes pane, press Add.
+      4. Enter any name you like (often upstream or master) and the URL / path to the parent repo.
+      5. Press OK, then OK.
+  * Git Console:
+      * https://help.github.com/articles/configuring-a-remote-for-a-fork/
+5. Everytime you want to publish a step to the students, merge the specific commit from you **local** 'solution' branch into 'master' and push your changes.
+6. For the students to receive the changes, let them pull from upstream
+  * Sourcetree:
         1. Select 'upstream' from 'pull from repository' dropdown
         2. Select 'master' from 'pull from repository' dropdown
         3. Press ok
-    * Git console
-        https://help.github.com/articles/syncing-a-fork/
+  * Git console:
+        * https://help.github.com/articles/syncing-a-fork/
   
  **IMORTANT:** For this to work, the students should only work in the folders specified in the exercise instructions.
 
